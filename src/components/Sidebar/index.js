@@ -7,7 +7,7 @@ const Sidebar = () => {
     const { user: { docId, username, fullName, userId, following } } = useUser();
 
     return (
-        <div className="p-4 lg:block xl:block md:hidden sm:hidden xs:hidden">
+        <div className="p-4 lg:block xl:block md:hidden sm:hidden xs:hidden fixed top-15 right-60">
             <User username={username} fullName={fullName} />
             <Suggestion userId={userId} following={following} loggedInUserDocId={docId} />
         </div>

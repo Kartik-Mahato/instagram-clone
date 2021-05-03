@@ -8,9 +8,9 @@ const Dashboard = () => {
         document.title = 'Instagram'
     }, []);
     return (
-        <div className="bg-gray-background">
+        <div className="bg-gray-background relative">
             <Header />
-            <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg">
+            <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg relative">
                 <Timeline />
                 <Sidebar />
             </div>
