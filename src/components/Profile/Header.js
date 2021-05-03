@@ -68,8 +68,11 @@ const Header = ({ photosCount, profile: {
                             <Skeleton count={1} width={677} height={24} />
                         ) : (
                             <>
-                                <p className="mx-8 text-lg">
-                                    <span className="font-bold">{photosCount}</span>
+                                <p className="mr-8 text-lg">
+                                    <span className="font-bold">{photosCount} </span>
+                                    <span className="font-normal">
+                                        {photosCount <= 1 ? 'post' : 'posts'}
+                                    </span>
                                 </p>
                                 <p className="mr-10 text-lg">
                                     <span className="font-bold">{followerCount}
