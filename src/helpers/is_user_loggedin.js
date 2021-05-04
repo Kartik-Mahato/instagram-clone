@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as ROUTES from '../constants/routes';
 import { Redirect, Route } from 'react-router';
 
 

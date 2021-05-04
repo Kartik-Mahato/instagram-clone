@@ -23,7 +23,7 @@ const UserProfile = ({ user }) => {
 
         getProfileInfoAndPhotos();
 
-    }, [user.username]);
+    }, [user, user.username]);
 
     return (
         <>
