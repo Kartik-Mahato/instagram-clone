@@ -4,3 +4,9 @@ This application (Instagram clone) was built using React (Custom Hooks, Context)
 
 # DEMO
 ![demo-gif](./insta-clone.gif)
+
+# INSTRUCTIONS
+1. Pull/Clone the repo.
+2. run 'npm install/yarn install' to install all the dependencies.
+3. Add the firebase configuration in the /lib/firebase.js file.
+4. Run the application by running 'yarn start/ npm run start'
